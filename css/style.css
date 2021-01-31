@@ -9,6 +9,7 @@
         --second-white-footer:rgba(255, 255, 255, 0.6);   
         --background-accent-color: #ffffff;
         --background-second-color:#F5F4FA;
+        --background-porfolio-color: #E5E5E5;
         --background-footer-color:#2F303A;
         
          
@@ -66,6 +67,12 @@
     
     
     /*==================================================header-studio===============================================*/
+        
+        .header {
+            border: 1px solid rgba(236, 236, 236, 1);
+        }
+    
+    
         .header-logo{
             font-family: var(--title-font);
             font-weight: 700;
@@ -137,10 +144,13 @@
             display: flex;
             align-items: center;  
         }
-      
-        .list-name-item{
+        .header-name-link-main,
+        .header-name-link-main-active, 
+        .header-name-link-portf,
+        .header-name-link-portf-active, 
+        .header-name-link-cont,
+        .header-inf  {
             display: block;
-            min-width: 50px;
             padding-top: 32px;
             padding-bottom: 32px;
             
@@ -157,9 +167,7 @@
             margin-left: auto;
         }
         .header .link-cont-name {
-          display: block;
-          padding-top: 32px;
-          padding-bottom: 32px;
+        
           margin-left: auto;
           margin-right: 50px; 
             
@@ -351,9 +359,9 @@
 
        .team-name-title {
         padding-top: 30px;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-bottom: 90px;
+        padding-left: 56px;
+        padding-right: 56px;
+        padding-bottom: 30px;
            
 
        }
@@ -363,6 +371,7 @@
         .sect-port {
             padding-top: 94px;
             padding-bottom: 94px;
+            
         }
         .sect-port-recalculation {
             display:flex;
@@ -382,7 +391,13 @@
             text-align: center;
             letter-spacing: 0.03em;
             cursor: pointer;
+            background: #F5F4FA;
             border: 0;
+            border-radius: 4px;
+            padding-top: 6px;
+            padding-right:22px;
+            padding-bottom: 6px;
+            padding-left: 22px;
             
         }
        
